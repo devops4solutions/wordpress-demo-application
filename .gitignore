@@ -1,0 +1,11 @@
+Makefile
+Makefile.common.in
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+bin/*
+deploy/Chart.yaml
+deploy/requirements.yaml
+deploy/templates/*
+deploy/values.yaml
+assets/*
