@@ -15,9 +15,6 @@ services:
       - '8080:80'
       - '8443:443'
     volumes:
-      - 'wordpress_data:/bitnami'
-      - '../assets/database/latest-prod.sql:/tmp/db.sql'
-      - '../assets/uploads/:/bitnami/wordpress/wp-content/uploads/'
       - '../wp-content/themes/beonepage/:/bitnami/wordpress/wp-content/themes/beonepage/'
     depends_on:
       - mariadb
