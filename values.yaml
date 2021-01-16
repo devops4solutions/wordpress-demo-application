@@ -439,7 +439,8 @@ ingress:
 
   ## When the ingress is enabled, a host pointing to this will be created
   ##
-  hostname: wordpress.local
+  hostname: nidhi12345.wordpress.local.com
+ 
 
   ## The Path to WordPress. You may need to set this to '/*' in order to use this
   ## with ALB ingress controllers.
