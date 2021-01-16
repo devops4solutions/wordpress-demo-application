@@ -1,6 +1,5 @@
 # Custom Wordpress Image Demo
 
-This repository demonstrates how to extend the base wordpress image to use for creating and deploying a site with custom themes and plugins.
 
 # Deploy Ingress Controller on GKE
 
@@ -12,7 +11,7 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/cont
 # Deploy wordpress using Helm chart
 
 ```
- helm install nidhitest bitnami/wordpress -f values.yaml 
+ helm install release1 bitnami/wordpress -f values.yaml 
 
 ```
 You can customize the values.yaml file as per your need
